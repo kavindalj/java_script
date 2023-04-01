@@ -1,0 +1,46 @@
+body {
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h2{
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+h5{
+    margin-bottom: 0px;
+    margin-top: 2%;
+    color: white;
+    font-size: 30px;
+}
+
+#genBtn , #resetBtn {
+    margin-left: 30%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 30px;
+    border-radius: 5%;
+    width: 225px;
+    align-items: center;
+    cursor: pointer;
+}
+#resetBtn{
+    display: none;
+}
+#total {
+    margin-bottom: 0%;
+    color: white;
+    font-size: 30px;
+}
+#mainResult{
+    margin-top: 1%;
+    border: white 4px solid;
+    font-size: 50px;
+}
+img {
+    margin-left: 10px;
+}
